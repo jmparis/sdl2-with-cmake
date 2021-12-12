@@ -5,7 +5,7 @@ set(PROJECT_NAME simple-window)
 project(${PROJECT_NAME})
 
 # Needed so that cmake uses our find modules.
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2)
 
 find_package(SDL2       REQUIRED)
 find_package(SDL2_net   REQUIRED)
